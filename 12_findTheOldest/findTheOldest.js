@@ -20,9 +20,10 @@ const findTheOldest = function (people) {
 
             if (previousPersonAge > currentPersonAge) {
                 return previousPerson;
-            } else {
-                return currentPerson;
             }
+
+            return currentPerson;
+
 
         }
     )
